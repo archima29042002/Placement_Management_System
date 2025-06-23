@@ -1,0 +1,186 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+    position: fixed;
+    background-color: #1b252f;
+    height: 70px;
+    width: 100%;
+    z-index: 1;
+}
+
+label {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+ul {
+    position: relative;
+    float: right;
+    margin-right: 25px;
+}
+
+ul li {
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+    margin-left: 17px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+ul li a:hover {
+    color: rgb(236, 195, 117);
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.heading {
+    margin-left: 20.5%;
+    margin-top: 8%;
+    height: 250px;
+    width: 800px;
+    background-color: rgba(50, 100, 122, 0.5);
+    box-shadow: 2px 2px 5px 5px rgba(26, 25, 33, 0.15);
+    border-radius: 10px;
+    color: white;
+}
+
+.dashboard2 {
+    font-weight: bold;
+    padding-top: 30px;
+    margin-left: 70px;
+}
+
+.dashboard4 {
+    margin-left: 27px;
+}
+
+.logout {
+    float: right;
+    padding-top: 15px;
+    padding-right: 25px;
+    margin-left: 15px;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.container {
+    height: 460px;
+    margin-top: 3%;
+    max-width: 700px;
+    /* width: 100px; */
+    background-color: rgba(57, 105, 127, 0.5);
+    box-shadow: 2px 2px 5px 5px rgba(26, 25, 33, 0.15);
+    border-radius: 10px;
+    padding: 25px 30px;
+}
+
+.container .title {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    color: white;
+}
+
+.container .title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: #9d17d2;
+}
+
+.container form .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form .user-details .input-box {
+    width: calc(100% / 2 - 20px);
+    margin-top: 10px;
+}
+
+.user-details .input-box .details {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.user-details .input-box input {
+    height: 37px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.user-details .input-box input:focus,
+.user-details .input-box input:valid {
+    border: #8b0abe;
+}
+
+form #button {
+    width: 20%;
+    margin-top: 3%;
+    margin-left: 79%;
+    border: none;
+}
+
+form #button a {
+    color: white;
+    text-decoration: none;
+}
+
+.content {
+    margin: 25px 5px 0px 25px;
+    width: 96.4%;
+    background-color: rgba(57, 105, 127, 0.5);
+    box-shadow: 2px 2px 5px 5px rgba(26, 25, 33, 0.15);
+    border-radius: 15px;
+}
+
+#student_details {
+    color: white;
+    padding: 10px 10px;
+    margin-left: 41%;
+}
+
+table {
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.table th {
+    font-size: 15px;
+    border: 1px;
+    padding: 0px 10px 0px 10px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+tr td {
+    padding: 5px 10px 5px 10px;
+    border: 2px solid rgb(255, 255, 255);
+}
